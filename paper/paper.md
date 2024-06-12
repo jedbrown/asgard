@@ -91,6 +91,10 @@ The Adaptive Sparse Grid Discretization (ASGarD) code is a framework specificall
 
 The goal of ASGarD is to facilitate and promote the use of adaptive sparse-grid methods by domain scientists for the approximation of kinetic models. ASGarD provides a robust yet flexible adaptive sparse-grid library for solving PDEs where the "curse-of-dimensionality" and computational complexity previously restricted domain scientists to Monte-Carlo sampling simulation.
 
+# State of the Field
+
+While GitHub Topics reports 65 public repositories for the discontinuous-galerkin method and 13 for sparse-grids, only two combine these two techniques. GalerkinSparseGrids.jl is written in Julia and missing adaptivity, distributed and shared-memory parallelism or GPU accelerator support [@atanasov2017]. AdaM-DG is also written in C++ and missing distributed memory parallelism or GPU accelerator support [@huang2024].
+
 # Acknowledgements
 
 Notice: This manuscript has been authored by UT-Battelle, LLC under Contract No. DE-AC05-00OR22725 with the U.S. Department of Energy.  The publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a non-exclusive, paid up, irrevocable, world-wide license to publish or reproduce the published form of the manuscript, or allow others to do so, for U.S. Government purposes. The DOE will provide public access to these results in accordance with the DOE Public Access Plan (http://energy.gov/downloads/doe-public-access-plan).
